@@ -282,8 +282,7 @@ dl dd{
 code {
   background: rgba(0,0,0,0.05);
   border:solid 1px #e1e4e5;
-  /* color:#000;  for clickable code */
-  font-family:Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+  font-family: "Source Code Pro",Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
   font-size:75%;
   max-width:100%;
   overflow-x:auto;
@@ -321,9 +320,8 @@ code {
   margin:1px 0 24px 0}
 
 pre.src{
-  /* color:#404040; */
-  background: #3F3F3F;
   color: #DCDCCC;
+  background: #3F3F3F;
   display:block;
   font-family:Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
   font-size:12px;
