@@ -6,7 +6,7 @@
 #+LANGUAGE:  en
 #+OPTIONS:   H:4 num:t toc:2
 
-#+SETUPFILE: ~/.dotfiles/org/theme-readtheorg-local-abs.setup
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 
 # See http://pandoc.org/README.html for another organization of the sections
 
@@ -21,8 +21,8 @@ approach to better HTML export.
   :END:
 
 #+begin_src css
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700);
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 #+end_src
 
 ** Headings
